@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".cowaddinfodatatable">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/t"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="ADD DATA"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/cid"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/t"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/btndrawable"
+                android:hint="Index No"
+                android:inputType="number"
+                android:paddingStart="15dp"
+                android:textColor="@color/black"
+                android:textColorHint="#636363" />
+
+            <Spinner
+                android:id="@+id/dn"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/cid"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/btndrawable"
+                android:hint="Select_Doctor"
+                android:paddingStart="10dp"
+                android:spinnerMode="dropdown"
+                android:textColor="@color/black"
+                android:textColorHint="#636363" />
+
+            <Spinner
+                android:id="@+id/dno"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/dn"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/btndrawable"
+                android:hint="Doctor No"
+                android:inputType="number"
+                android:paddingStart="10dp"
+                android:spinnerMode="dropdown"
+                android:textColor="@color/black"
+                android:textColorHint="#636363" />
+
+            <EditText
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/dno"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/btndrawable"
+                android:clickable="false"
+                android:cursorVisible="false"
+                android:datePickerMode="calendar"
+                android:focusable="false"
+
+                android:hint="Date"
+                android:paddingStart="15dp"
+                android:textColor="@color/black"
+                android:textColorHint="#636363" />
+
+            <Spinner
+                android:id="@+id/dss"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/date"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/btndrawable"
+                android:hint="Disease"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="#636363" />
+
+            <Button
+                android:id="@+id/createNow"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dss"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_shape"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Add"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Dairy Farm</string>
+    <string name="Select_Doctor">Select Doctor</string>
+    <string-array name="doctor_names">
+        <item>Select_Dr Name</item>
+        <item>Dr.Visha</item>
+        <item>Dr.Areeba</item>
+        <item>Dr.Ayesha</item>
+        <!-- Add more items as needed -->
+    </string-array>
+    <string-array name="doctor_numbers">
+        <item> Select_Dr.no</item>
+        <item>03316371139</item>
+        <item>03316371138</item>
+        <item>03316371139</item>
+        <!-- Add more items as needed -->
+    </string-array>
+    <string-array name="diseases_list">
+        <item> Select_Diseases</item>
+        <item>Bovine Tuberculosis (TB)</item>
+        <item>Foot and Mouth Disease (FMD)</item>
+        <item>Brucellosis</item>
+        <item> Mastitis</item>
+        <item>Bovine Respiratory Disease (BRD)</item>
+        <item>Bovine Viral Diarrhea (BVD)</item>
+        <item>Foot and Mouth Disease (FMD)</item>
+
+    </string-array>
+</resources>

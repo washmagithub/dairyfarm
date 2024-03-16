@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="5">
+
+    <TextView
+        android:id="@+id/t11"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/tableborders"
+        android:gravity="center"
+        android:hint="name"
+        android:padding="5dp"
+        android:textSize="8dp" />
+
+    <TextView
+        android:id="@+id/t22"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/tableborders"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="8dp" />
+
+    <TextView
+        android:id="@+id/t33"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/tableborders"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="8dp" />
+
+    <TextView
+        android:id="@+id/t44"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/tableborders"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="8dp" />
+
+    <TextView
+        android:id="@+id/t55"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/tableborders"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="8dp" />
+
+</LinearLayout>

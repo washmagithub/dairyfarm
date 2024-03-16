@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "907056795624",
+    "firebase_url": "https://smartfarm-be312-default-rtdb.firebaseio.com",
+    "project_id": "smartfarm-be312",
+    "storage_bucket": "smartfarm-be312.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907056795624:android:1283c3d1f972b54e301e5d",
+        "android_client_info": {
+          "package_name": "com.example.dairyfarm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGDhJLufuK6K98yh6irJMXQa3s2vUqo3Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
